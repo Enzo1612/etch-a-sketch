@@ -1,0 +1,45 @@
+body {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    height: 1000px;
+    width: 1000px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cols {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rows, .cols {
+    height: 75%;
+    width: 100%;
+}
+
+/*.rows:hover {
+    background-color: black;
+}*/
+
+.sizeButton, .resetButton {
+    position: absolute;
+    top:0;
+    padding: 20px;
+    background-color: purple;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+.sizeButton,.resetButton:hover {
+    cursor: pointer;
+    color: purple;
+    background-color: lightgray;
+    padding: 21px;
+}
+.resetButton {
+    right: 5%;
+}
